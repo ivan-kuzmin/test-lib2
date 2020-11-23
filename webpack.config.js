@@ -98,6 +98,7 @@ const config = {
           {
             loader: 'css-loader',
             options: {
+              url: false,
               sourceMap: true,
               modules: {
                 localIdentName: IS_DEV
